@@ -1,0 +1,15 @@
+:root {
+  --bgcolor1: #2b92d8;
+  --bgcolor2: #ededed;
+  --color1: #404040;
+  --color1blur: rgba(64, 64, 64, 0.50);
+  --color2: #ffffff;
+  --color3: #ffffff80;
+  --color4: #182139;
+  --color5: #6e6e6e;
+  --bordercolor: #e6e8ef;
+  --bordercolor1: #e3e3e4;
+  --gradiant: linear-gradient(90deg, rgba(40,112,220,1) 0%, rgba(231,114,59,1) 100%);
+  --font-family: "Montserrat", sans-serif;
+  --font-family2: "Work Sans", sans-serif;
+}/*# sourceMappingURL=theme.css.map */

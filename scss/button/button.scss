@@ -1,0 +1,153 @@
+@import "../typography/typography.scss";
+
+.header-flex-button {
+    a {
+        button {
+            padding: 16px;
+            background-color: var(--color2);
+            color: var(--color1);
+            @include font15;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+
+            &:hover {
+                background-color: var(--bgcolor1);
+                color: var(--color2);
+                transition: 0.3s ease-in-out;
+            }
+        }
+    }
+}
+
+.gray-bg-grid-div2 {
+    a {
+        button {
+            padding: 10px 36px;
+            @include font14;
+            color: var(--color4);
+            border: 2px solid rgb(40, 112, 220);
+            border-radius: 5px;
+
+            &:hover {
+                background: linear-gradient(90deg, rgba(40, 112, 220, 1) 0%, rgba(231, 114, 59, 1) 100%);
+                color: var(--color2);
+            }
+        }
+    }
+}
+
+.Gemeinsam-main-div-button {
+    margin-top: 65px;
+
+    a {
+        button {
+            width: 380px;
+            height: 44px;
+            padding: 10px 36px;
+            @include font14;
+            color: var(--color4);
+            border: 2px solid rgb(40, 112, 220);
+            border-radius: 5px;
+            background: transparent;
+
+            &:hover {
+                background: linear-gradient(90deg, rgba(40, 112, 220, 1) 0%, rgba(231, 114, 59, 1) 100%);
+                color: var(--color2);
+            }
+        }
+    }
+}
+
+.werdeteil-grid-div2-button {
+    margin-top: 10px;
+
+    a {
+        button {
+            padding: 10px 36px;
+            @include font14;
+            color: var(--color4);
+            border: 2px solid rgb(40, 112, 220);
+            border-radius: 5px;
+            background: transparent;
+            
+            &:hover {
+                background: linear-gradient(90deg, rgba(40, 112, 220, 1) 0%, rgba(231, 114, 59, 1) 100%);
+                color: var(--color2);
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .gray-bg-grid-div2 {
+        a {
+            button {
+                @include font12;
+            }
+        }
+    }
+    .Gemeinsam-main-div-button {
+        margin-top: 20px;
+
+        a {
+            button {
+                @include font14;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .header-flex-button {
+        a {
+            button {
+                padding: 7px 9px;
+                @include font8;
+            }
+        }
+    }
+
+    .gray-bg-grid-div2 {
+        a {
+            button {
+                padding: 10px 20px;
+                @include font11;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+    }
+    .Gemeinsam-main-div-button {
+        margin-top: 20px;
+
+        a {
+            text-decoration-line: none;
+            display: flex;
+            justify-content: center;
+            button {
+                width: 286px;
+                height: 38px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px 36px;
+                @include font11;
+                font-weight: 600;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .werdeteil-grid-div2-button {
+        margin-top: 10px;
+
+        a {
+            button {
+                padding: 10px 20px;
+                @include font11;
+                line-height: normal;
+            }
+        }
+    }
+}

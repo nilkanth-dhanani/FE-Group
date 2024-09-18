@@ -1,0 +1,181 @@
+.header-flex-button a button {
+  padding: 16px;
+  background-color: var(--color2);
+  color: var(--color1);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 10px;
+  font-style: normal;
+  font-family: var(--font-family);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.header-flex-button a button:hover {
+  background-color: var(--bgcolor1);
+  color: var(--color2);
+  transition: 0.3s ease-in-out;
+}
+
+.gray-bg-grid-div2 a button {
+  padding: 10px 36px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  font-family: var(--font-family);
+  color: var(--color4);
+  border: 2px solid rgb(40, 112, 220);
+  border-radius: 5px;
+}
+.gray-bg-grid-div2 a button:hover {
+  background: linear-gradient(90deg, rgb(40, 112, 220) 0%, rgb(231, 114, 59) 100%);
+  color: var(--color2);
+}
+
+.Gemeinsam-main-div-button {
+  margin-top: 65px;
+}
+.Gemeinsam-main-div-button a button {
+  width: 380px;
+  height: 44px;
+  padding: 10px 36px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  font-family: var(--font-family);
+  color: var(--color4);
+  border: 2px solid rgb(40, 112, 220);
+  border-radius: 5px;
+  background: transparent;
+}
+.Gemeinsam-main-div-button a button:hover {
+  background: linear-gradient(90deg, rgb(40, 112, 220) 0%, rgb(231, 114, 59) 100%);
+  color: var(--color2);
+}
+
+.werdeteil-grid-div2-button {
+  margin-top: 10px;
+}
+.werdeteil-grid-div2-button a button {
+  padding: 10px 36px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  font-style: normal;
+  font-family: var(--font-family);
+  color: var(--color4);
+  border: 2px solid rgb(40, 112, 220);
+  border-radius: 5px;
+  background: transparent;
+}
+.werdeteil-grid-div2-button a button:hover {
+  background: linear-gradient(90deg, rgb(40, 112, 220) 0%, rgb(231, 114, 59) 100%);
+  color: var(--color2);
+}
+
+@media (max-width: 1024px) {
+  .gray-bg-grid-div2 a button {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+    font-family: var(--font-family);
+  }
+  .Gemeinsam-main-div-button {
+    margin-top: 20px;
+  }
+  .Gemeinsam-main-div-button a button {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal;
+    font-family: var(--font-family);
+  }
+}
+@media (max-width: 576px) {
+  .header-flex-button a button {
+    padding: 7px 9px;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 10px;
+    font-style: normal;
+    font-family: var(--font-family);
+  }
+  .gray-bg-grid-div2 a button {
+    padding: 10px 20px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 25px;
+    font-style: normal;
+    font-family: var(--font-family);
+    font-weight: 600;
+    line-height: normal;
+  }
+  .Gemeinsam-main-div-button {
+    margin-top: 20px;
+  }
+  .Gemeinsam-main-div-button a {
+    text-decoration-line: none;
+    display: flex;
+    justify-content: center;
+  }
+  .Gemeinsam-main-div-button a button {
+    width: 286px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 36px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 25px;
+    font-style: normal;
+    font-family: var(--font-family);
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .werdeteil-grid-div2-button {
+    margin-top: 10px;
+  }
+  .werdeteil-grid-div2-button a button {
+    padding: 10px 20px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 25px;
+    font-style: normal;
+    font-family: var(--font-family);
+    line-height: normal;
+  }
+}
+.container {
+  max-width: 1333px;
+  margin: 0 auto;
+}
+
+.container-main {
+  max-width: 1195px;
+  margin: 0 auto;
+}
+
+.container-ft {
+  max-width: 786px;
+  margin: 0 auto;
+}
+
+:root {
+  --bgcolor1: #2b92d8;
+  --bgcolor2: #ededed;
+  --color1: #404040;
+  --color1blur: rgba(64, 64, 64, 0.50);
+  --color2: #ffffff;
+  --color3: #ffffff80;
+  --color4: #182139;
+  --color5: #6e6e6e;
+  --bordercolor: #e6e8ef;
+  --bordercolor1: #e3e3e4;
+  --gradiant: linear-gradient(90deg, rgba(40,112,220,1) 0%, rgba(231,114,59,1) 100%);
+  --font-family: "Montserrat", sans-serif;
+  --font-family2: "Work Sans", sans-serif;
+}/*# sourceMappingURL=index.css.map */

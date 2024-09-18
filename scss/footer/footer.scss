@@ -1,0 +1,97 @@
+@import '../typography/typography.scss';
+
+footer {
+    .footer-div {
+        padding: 40px 0;
+        background-color: var(--bgcolor2);
+        .footer-div1 {
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: space-between;
+            a {
+                text-decoration-line: none;
+                color: var(--color1);
+                @include font20;
+                &:hover {
+                    transform: scale(1.05);
+                    color: var(--color5);
+                }
+            }
+        }
+        .footer-div2 {
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 37px;
+        }
+        .footer-div3 {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            a {
+                text-decoration-line: none;
+                @include font14ff2;
+                color: var(--color1);
+            }
+            span {
+                text-decoration-line: none;
+                @include font14ff2;
+                color: var(--color1);
+            }
+        }
+        .footer-div4 {
+            text-align: center;
+            p {
+                @include font14ff2;
+                color: var(--color1);
+            }
+        }
+    }
+}
+
+@media (max-width:1024px) {
+    footer {
+        .footer-div {
+            padding: 40px;
+        }
+    }
+}
+
+@media (max-width:576px) {
+    footer {
+        .footer-div {
+            padding: 30px 20px;
+            .footer-div1 {
+                margin-bottom: 20px;
+                a {
+                    @include font10;
+                }
+            }
+            .footer-div2 {
+                margin-bottom: 20px;
+            }
+            .footer-div3 {
+                a {
+                    @include font10;
+                    font-weight: 300;
+                    line-height: normal;
+                }
+                span {
+                    @include font10;
+                    font-weight: 300;
+                    line-height: normal;
+                }
+            }
+            .footer-div4 {
+                p {
+                    @include font10;
+                    font-weight: 300;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
